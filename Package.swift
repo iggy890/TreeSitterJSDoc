@@ -5,11 +5,11 @@ let package = Package(
     name: "TreeSitterJSDoc",
     platforms: [.macOS(.v10_13), .iOS(.v11)],
     products: [
-        .library(name: "TreeSitterJSDOC", targets: ["TreeSitterJSDOC"]),
+        .library(name: "TreeSitterJSDoc", targets: ["TreeSitterJSDoc"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "TreeSitterJSDOC",
+        .target(name: "TreeSitterJSDoc",
                 path: ".",
                 exclude: [
                     "binding.gyp",
